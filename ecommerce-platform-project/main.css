@@ -1,0 +1,90 @@
+body{
+    background-image: url(images/make-up-var.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Lobster', cursive;
+font-family: 'Raleway Dots', cursive;
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 250px;
+}
+
+h3{
+    font-size: 25px;
+    color: white;
+    width: 120px;
+    margin-left: 9rem;
+    margin-bottom: 20px;
+}
+
+.glyphicon-pencil{
+    font-size: 50px;
+    color: cyan;
+    float: right;
+    margin-top:20px;
+}
+
+.col-md-5{
+    margin-top: 80px;
+    box-shadow: 1px 1px 60px 10px rgb(21, 59, 163);
+    background: rgba(2, 3, 5, 0.2);
+}
+
+.label{
+    font-weight: normal;
+    margin-top: 15px;
+    color: brown;
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+.form-control{
+    background: transparent;
+    border-radius: 1px;
+    border: 0px;
+    border-bottom: 1px solid grey;
+    font-size: 18px;
+    margin-top: 15px;
+    height: 40px;
+}
+
+input[type='Checkbox']{
+    margin-top: 15px;
+    width: 15px;
+    height: 15px;
+}
+
+small{
+    font-size: 15px;
+    color: floralwhite;
+}
+
+small > a{
+    font-size: 15px;
+    color: royalblue;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+
+small > a:hover{
+     color: seashell;
+
+}
+.btn-info{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 120px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.container{
+    text-align: center;
+   /* background-color: rgb(40, 179, 179);*/
+    margin: 5px 0;
+
+}

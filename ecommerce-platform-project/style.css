@@ -1,0 +1,61 @@
+.bg-black{
+    background-color: rgba(16, 8, 24, 0.514);
+}
+
+.carousel-caption{
+    top: 200px;
+}
+
+.bg-green{
+    background-color: rgb(13, 13, 136);
+    color: whitesmoke;
+    font-weight: 600;
+    text-align: center;
+}
+
+.m-right{
+    border: 2px solid #fc03b1;
+    border: 2px solid white;
+}
+
+.underline{
+    width: 100px;
+    height: 2px;
+    background-color: teal;
+}
+
+.bg-light-gray{
+    background-color: thistle;
+}
+
+.media img{
+    max-width: 120px;
+    height: auto;
+}
+
+.underline-green{
+    width: 70px;
+    height: 2px;
+    background-color: turquoise;
+}
+
+.underline-blue{
+    width: 70px;
+    height: 2px;
+    background-color: blue;
+}
+
+.underline-black{
+    width: 70px;
+    height: 2px;
+    background-color: black;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.blog .media img{
+    max-width: 200px;
+    height: auto;
+}
