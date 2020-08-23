@@ -154,6 +154,15 @@
 	text-align: center;
 }
 
+#content > h1,
+#checkout-form h2 {
+	font-size: 2em;
+	text-align: center;
+}
+
+#theader > h1{
+    text-align: center;
+}
 
 #submit-btn{
     margin-top: 20px;
