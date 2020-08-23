@@ -85,6 +85,33 @@
     
 }
 
+#price {
+	padding: 0.5em;
+	margin: 1em 0;
+	background: #fafafa;
+}
+
+#price #sub-total,
+#price #ship {
+	margin: 1em 0;
+}
+
+#sub-total span,
+#ship span {
+    margin-left: 1em;
+}
+
+#first-billing select {
+	width: 200px;
+	display: block;
+}
+
+#second-billing select {
+	width: 200px;
+	display: block;
+}
+
+
 #submit-btn{
     margin-top: 20px;
     font-size: 15px;
