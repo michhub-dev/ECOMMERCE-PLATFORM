@@ -150,10 +150,6 @@
     color: wheat;
 }
 
-.shopping-cart td.pdelete {
-	text-align: center;
-}
-
 #content > h1,
 #checkout-form h2 {
 	font-size: 2em;
