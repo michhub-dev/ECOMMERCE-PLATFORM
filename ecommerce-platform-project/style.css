@@ -59,3 +59,69 @@
     max-width: 200px;
     height: auto;
 }
+
+
+
+#checkout{
+    background-image: url(images/makeup-bag.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#payment{
+    background: rgb(163, 179, 196);
+    margin-top: 80px;
+    box-shadow: 1px 1px 60px 10px rgb(126, 173, 204);
+    background: rgba(2, 3, 5, 0.2);
+    padding: 5px 0 3px 20px;
+    border-radius: 7px;
+}
+
+#theader{
+    background: transparent;
+    border: 0px;
+    font-size: 18px;
+    margin-top: 15px;
+    height: 40px;
+    
+}
+
+#submit-btn{
+    margin-top: 20px;
+    font-size: 15px;
+    width: 120px;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 2px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    background: lightblue;
+}
+
+#submit-btn:hover{
+    background: lightcyan;
+}
+
+footer{
+    padding-top: 4rem;
+}
+
+#scontainer{
+    background-image:url(images/brush-chain.jpg) ;
+}
+
+.btn-cart{
+    background: grey;
+    border-radius: 1px;
+    padding: 5px 7px 5px 7px;
+}
+
+.btn-cart:hover{
+    background: rgb(140, 151, 98);
+}
+
+.btn:hover{
+  color: cornflowerblue;
+}
+
