@@ -164,6 +164,19 @@
     text-align: center;
 }
 
+.shopping-cart td.pdelete {
+	text-align: center;
+}
+
+.pdelete a,
+.pdelete a:hover {
+	color: rgb(83, 13, 13);
+	text-decoration: none;
+	font-size: 2.5em;
+	display: block;
+	text-align: center;
+}
+
 
 #submit-btn{
     margin-top: 20px;
