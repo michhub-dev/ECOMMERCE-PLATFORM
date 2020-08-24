@@ -5,6 +5,8 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.shop.js"></script>
 </head>
 
 <body id="checkout">
@@ -15,7 +17,7 @@
 	</header>
 	<div id="content">
 		<h1>Checkout</h1>
-			<table  class="shopping-cart" id="checkout-col">
+			<table  class="shopping-cart" id="checkout-cart">
 			  <thead>
 				<tr>
 					<th scope="col">Item</th>
@@ -34,11 +36,11 @@
 			</p>
 			
 			<p id="sub-total">
-				<strong>Total</strong>: <span id="subtotal"></span>
+				<strong>Total</strong>: <span id="stotal"></span>
 			</p>
 		 </div>
 		 
-		 <form action="order.html" method="post" id="checkout-form">
+		 <form action="order.html" method="POST" id="checkout-order-form">
 		 	<h2>Your Details</h2>
 		 	
 		 	<fieldset id="first-billing">
@@ -102,14 +104,14 @@
 		 		<div>
 		 			<label for="scountry">Country</label>
 		 			<select name="scountry" id="scountry" data-type="string" data-message="This field cannot be empty">
-		 				<option value="Niger">Niger</option>
+		 				<option value="">Select</option>
 		 				<option value="Togo">Togo</option>
 		 				<option value="Kenya">Kenya</option>
 		 			</select>
 		 		</div>
 		 	</fieldset>
 		 	
-		 	<p><input type="submit" id="submit-btn" value="Submit" class="btn" /></p>
+		 	<p><input type="submit" id="submit-order" value="Submit" class="btn" /></p>
 		 
 		 </form>
 	</div>

@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
           integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.shop.js"></script>
 </head>
 <body>
     <div class="container-fluid bg-dark header-top d-none d-md-block">
@@ -136,11 +138,17 @@
             <div class="col-md-3">
                 <div class="card">
                     <img src="images/glow.jpg" alt="" class="card-img-top">
-                    <div class="card-body">
+                    <div class="card-body" data-name="Beach" data-price="50">
                         <h5>Beach</h5>
-                        <h5>$50.00</h5>
+                        <h5>&dollar; 50.00</h5>
+                        <form class="add-to-cart" action="shop.html" method="POST">
+                            <div>
+                                <label for="qty-1">Quantitiy</label>
+                                <input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+                            </div>
                         <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true">
                         Add To Cart</i></button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -148,11 +156,18 @@
             <div class="col-md-3">
                 <div class="card">
                     <img src="images/mascara.jpg" alt="" class="card-img-top">
-                    <div class="card-body">
+                    <div class="card-body" data-name="Mascara" data-price="5">
                         <h5>Mascara</h5>
-                        <h5>$5.00</h5>
-                        <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true">
-                        Add To Cart</i></button>
+                        <h5>&dollar; 5.00</h5>
+                        <form class="add-to-cart" action="shop.html" method="POST">
+                            <div>
+                                <label for="qty-2">Quantitiy</label>
+                                <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                            </div>
+                            <button class="btn btn-danger">
+                                <i class="fa fa-cart-plus" aria-hidden="true">Add To Cart</i>
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -160,11 +175,17 @@
             <div class="col-md-3">
                 <div class="card">
                     <img src="images/white-gloss.jpg" alt="" class="card-img-top">
-                    <div class="card-body">
+                    <div class="card-body" data-name="White Lipgloss" data-price="3">
                         <h5>White Lipgloss</h5>
-                        <h5>$3.00</h5>
-                        <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true">
-                        Add To Cart</i></button>
+                        <h5>&dollar; 3.00</h5>
+                        <form class="add-to-cart" action="shop.html" method="POST">
+                            <div>
+                                <label>Quantitiy</label>
+                                <input type="text" name="qty-3" id="qty-3" class="qty" value="1" />
+                            </div>
+                            <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true">
+                                Add To Cart</i></button>
+                        </form>
                     </div>
                 </div>
             </div>

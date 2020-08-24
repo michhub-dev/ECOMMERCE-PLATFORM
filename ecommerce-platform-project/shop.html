@@ -6,9 +6,11 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.shop.js"></script>
 </head>
 
-<body id="scontainer">
+<body>
 
 <div id="payment">
 	<header id="masthead">
@@ -16,7 +18,7 @@
 	</header>
 	<div id="content">
 		<h1>Your Shopping Cart</h1>
-		<form id="shopping-cart" action="main.html" method="post">
+		<form id="shopping-cart" action="shop.html" method="POST">
 			<table class="shopping-cart">
 			  <thead>
 				<tr>
@@ -26,50 +28,18 @@
 				</tr>
 			  </thead>
 			  <tbody>
-				<tr>
-			    <td class="pname">Item 1</td>
-			    <td class="pqty">
-				<input type="text" value="1" class="qty">
-			    </td>
-			    <td class="pprice">$5.0</td>
-			    <td class="pdelete">
-				<a href data-product="item 1">x</a>
-                   	 </td>
-              		  </tr>
-			 <tr>
-			   <td class="pname">Item 2</td>
-			   <td class="pqty">
-				<input type="text" value="1" class="qty">
-			    </td>
-			    <td class="pprice">$8.0</td>
-			    <td class="pdelete">
-				<a href data-product="Item 2">x</a>
-                       </td>
-                     </tr>
-			    <tr>
-			   <td class="pname">item 3</td>
-			   <td class="pqty">
-				 <input type="text" value="1" class="qty">
-                        </td>
-				<td class="pprice">$4.0</td>
-				<td class="pdelete">
-				<a href data-product="item 3">x</a>
-                       </td>
-
-                    </tr>
+				
 			  </tbody>
-			   
-			 
 			</table>
 			<p id="sub-total">
 				<strong>Sub Total</strong>: <span id="total"></span>
 			</p>
 			<ul id="beauty-shopping-cart">
 				<li>
-					<input type="submit" name="update" id="update" class="btn-cart" value="Update Cart" />
+					<input type="submit" name="update" id="update-cart" class="btn-cart" value="Update Cart" />
 				</li>
 				<li>
-					<input type="submit" name="remove" id="remove-cart" class="btn-cart" value="Empty Cart" />
+					<input type="submit" name="remove" id="empty-cart" class="btn-cart" value="Empty Cart" />
 				</li>
 				<li>
 					<a href="main.html" class="btn">Continue Shopping</a>
