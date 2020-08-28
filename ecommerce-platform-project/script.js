@@ -6,8 +6,8 @@ function validate(){
     
     if ( username == "michy@gmail.com" && password == "femcode123"){
         alert ("Login successful");
-        window.location.href = "/home.html"; // Redirecting to other page.
-        //return true;
+        window.location= "h/home/cinc/michPJ/ecommerce-platform-project/home.html"; // Redirecting to other page.
+        return false;
     }
     else{
         attempt --;// Decrementing by one.
