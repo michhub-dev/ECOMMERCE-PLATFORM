@@ -6,7 +6,7 @@ function validate(){
     
     if ( username == "michy@gmail.com" && password == "femcode123"){
         alert ("Login successful");
-        window.location= "h/home/cinc/michPJ/ecommerce-platform-project/home.html"; // Redirecting to other page.
+        window.location= "https://beauty-collection-withmichy.netlify.app/home.html"; // Redirecting to other page.
         return false;
     }
     else{
