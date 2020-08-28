@@ -396,8 +396,6 @@ h1, h2, h3, h4, h5, h6 {
 	border-bottom: 1px solid #ddd;
 }
 
-
-
 .tagline {
 	float: right;
 	color: #666;
@@ -530,7 +528,7 @@ body#checkout-page #site-info {
 
 .shopping-cart tr:nth-child(even) {
 	background: #fafafa;
-},
+}
 
 .shopping-cart td.pdelete {
 	text-align: center;
