@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
 
@@ -12,32 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-
-    <script type="text/javascript">
-        var attempt = 3; // Variable to count number of attempts.
-        // Below function Executes on click of login button.
-        function validate(){
-        var username = document.getElementById("username").value;
-        var password = document.getElementById("password").value;
-        if ( username == "michy@gmail.com" && password == "femcode123"){
-        alert ("Login successful");
-        window.location.href = "/home.html"; // Redirecting to other page.
-        //return true;
-        }
-        else{
-        attempt --;// Decrementing by one.
-        alert("You have left "+attempt+" attempt;");
-        // Disabling fields after 3 attempts.
-        if( attempt == 0){
-        document.getElementById("username").disabled = true;
-        document.getElementById("password").disabled = true;
-        document.getElementById("submit").disabled = true;
-        return false;
-        }
-        }
-        }
-    </script>
-
+    <script src="script.js" type="text/javascript"></script>
 </head>
 <body>
         <div class="container">
