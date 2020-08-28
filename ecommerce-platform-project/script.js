@@ -7,7 +7,7 @@ function validate(){
     if ( username == "michy@gmail.com" && password == "femcode123"){
         alert ("Login successful");
         window.location.href= "https://beauty-collection-withmichy.netlify.app/home.html"; // Redirecting to other page.
-        return true;
+        //return true;
     }
     else{
         attempt --;// Decrementing by one.
